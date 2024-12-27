@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>handling-the-name-and-surname-form</title>
+  </head>
+  <body>
+    <ul class="message-container"></ul>
+    <form class="consent-form" action="">
+      <h1>CONSENT FORM</h1>
+      <input
+        class="input-consent"
+        ="text"
+        placeholder="First name and last name"
+        id="name-and-surname"
+      />
+      <input
+        class="input-consent"
+        id="email"
+        type="email"
+        placeholder="example@example.com"
+      />
+      <div class="container-consent">
+        <p>
+          <input type="checkbox" id="allConsents" />
+          <label for="allConsents" class="consent-label">All consents</label>
+        </p>
+        <p>
+          <input type="checkbox" id="consentMarketing" />
+          <label for="marketingConsent" class="consent-label">
+            Marketing Consent</label
+          >
+        </p>
+        <p>
+          <input type="checkbox" id="consentMarketing2" />
+          <label for="marketingConsent2" class="consent-label"
+            >Marketing Consent 2
+          </label>
+        </p>
+      </div>
+      <button type="submit">validate</button>
+    </form>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
