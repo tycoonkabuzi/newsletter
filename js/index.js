@@ -1,4 +1,4 @@
-let formulaire = document.getElementById("form");
+let form = document.getElementById("form");
 const validate = (e) => {
   let arrayNames = [];
   let firstname, secondName;
@@ -15,4 +15,4 @@ const validate = (e) => {
   );
 };
 
-formulaire.addEventListener("submit", validate);
+form.addEventListener("submit", validate);
